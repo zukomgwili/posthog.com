@@ -5,7 +5,7 @@ import SearchBar from 'components/Docs/SearchBar'
 import { Wrapper } from '../Wrapper'
 import ProductIcons from 'components/ProductIcons'
 import { graphql, useStaticQuery } from 'gatsby'
-import LogoVendasta from './vendasta.svg'
+import LogoYCombinator from './ycombinator.svg'
 import LogoHasura from './hasura.svg'
 import LogoPhantom from './phantom.svg'
 
@@ -132,11 +132,11 @@ export default function Product({ referenceElement }: { referenceElement: HTMLDi
                     <ol className="m-0 list-none p-0 max-w-[250px] mt-2">
                         <Link
                             className="rounded-sm py-2 mb-1 px-3 block hover:bg-tan hover:bg-opacity-50 relative active:top-[1px] active:scale-[.99]"
-                            to="/customers/vendasta"
+                            to="/customers/ycombinator"
                         >
-                            <img className="h-[25px]" src={LogoVendasta} />
+                            <img className="h-[25px]" src={LogoYCombinator} />
                             <p className="text-sm opacity-50 m-0 text-black font-medium dark:text-white mt-1 leading-tight">
-                                How Vendesta replaced Snowplow and cut onboarding drop-off by 50%
+                                How YC is building the next generation of startups, with help from PostHog
                             </p>
                         </Link>
                         <Link
