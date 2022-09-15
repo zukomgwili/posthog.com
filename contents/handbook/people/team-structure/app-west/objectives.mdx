@@ -1,10 +1,18 @@
-* **Proposed Objective:**
-    * Increase the % of customers successfully using multiple core tools
-* **Proposed Key Results:**
-    * Launch all missing competitive session recording features like console log, network tab recording, playlist mode
-    * Improve feature flag capabilities (Pending specifics)
-    * Stretch: Proof of concept for mobile session recording
-* **Rationale:**
-    * This should drive us to focus on:
-        * Improving core features, such as session recording and feature flags to make them more valuable and attractive to use
-        * Integrating core features together to drive people to use multiple feature and make them even more successful on PostHog
+- Objectives: Enable customers to query the clickhouse database with SQL and return table form data (and maybe graphing) with 5 happy companies for the feature launch
+    - Key result:
+        - _Team to fill in_
+    - Why?
+        - We can see users sending all their data to a warehouse to query it there, just to debug PostHog sometimes.
+        - This would be used by our existing users so makes sense to prioritise ahead of ie a CRM / marketing tool etc.
+- Objective: Enable customers to create insights with SQL (switch from GUI query builder to SQL query builder and back) with 5 happy companies for the feature launch
+    - Key result:
+        - Team to fill in
+    - Why?
+        - SQL access makes our existing analytics much more powerful and solves dozens of edge cases in one go. This will delight + increase word of mouth growth.
+
+
+- Out of scope for this quarter but potential roadmap
+    - If we build "Enable customers to query the clickhouse database with SQL" directly into the product, we _know_ that customers will want to integrate with other data we don’t have access to
+    - As a second step we could connect to other data sources sources
+    - This is probably a better path than integrating with Metabase as that would require significant engineering effort
+    - Charging for feature flags - likely next quarter after the session recording billing infra is done
