@@ -1,40 +1,21 @@
-## Original proposal:
-- Objectives: Enable customers to query the clickhouse database with SQL and return table form data (and maybe graphing) with 5 happy companies for the feature launch
-    - Key result:
-        - _Team to fill in_
-    - Why?
-        - We can see users sending all their data to a warehouse to query it there, just to debug PostHog sometimes.
-        - This would be used by our existing users so makes sense to prioritise ahead of ie a CRM / marketing tool etc.
-- Objective: Enable customers to create insights with SQL (switch from GUI query builder to SQL query builder and back) with 5 happy companies for the feature launch
-    - Key result:
-        - Team to fill in
-    - Why?
-        - SQL access makes our existing analytics much more powerful and solves dozens of edge cases in one go. This will delight + increase word of mouth growth.
+## Objective: Increase usage and quality of experimentation. 
 
+* **Key Result:**
+ * Increase organizations that launch a paid experiment within 2 weeks of signing up from 7.5% to 20%
+* **Key Result:** 
+ * Retain retention of organizations on experimentation to 60%
+* **Key Result:**
+ * 10 confirmed decisions made from completed experiments. Either the organization deployed the feature or reverted and did not release
 
-- Out of scope for this quarter but potential roadmap
-    - If we build "Enable customers to query the clickhouse database with SQL" directly into the product, we _know_ that customers will want to integrate with other data we don’t have access to
-    - As a second step we could connect to other data sources sources
-    - This is probably a better path than integrating with Metabase as that would require significant engineering effort
-    - Charging for feature flags - likely next quarter after the session recording billing infra is done
+* **Rationale:**
+ * Make sure that experimentation is a first class feature, Posthog users are excited to use alongside the rest of the analytics features
 
-## Working OKRs
+## Objective: Launch Direct SQL Querying Beta
 
-- Objective: Increase organisations using experiments within 2 weeks of signing up from X% to Y%
+* **Key Result:**
+ * 5 beta users who retain for 3 weeks
+* **Key Result:**
+ * Understand the possible product directions to extend direct sql querying
 
-    - (The below are still a work in progress)
-    - Key Result: Increase activation of newly signed up users/organizations on experiments from X% to Y%
-    - Key Result: Increase number of experiments (per team?) run from X to Y
-    - Key Result: Re-activate X number of users/organizations who have churned
-    - Key Result: Cross-activate X number of existing users/organizations who don't currently use experiments
-    - Key Result: Get X number of feature flag users/organizations to try running their first experiment
-    - Key Result: Resolve all currently tracked experimentation bugs
-    - Key Result: Resolve any new experimentation bugs within 2 days
-    - Key Result: Get 100 experiments completed
-
-- Objective: Launch Direct SQL Querying Beta with 5 happy customers
-    - (The below are still a work in progress)
-    - Key Result: Launch feature on cloud and self-hosted
-    - Key Result: Enable examination of any GUI based query on this feature
-    - Key Result: Enable customers to create insights with SQL
-    - Key Result: Activate 10 existing users who retain X days/weeks on this feature
+* **Rationale:**
+ * To fully support our technical users, we need to allow them to ask any sort of question about their data that might not be fit for an interface
